@@ -1,0 +1,43 @@
+/* styles.css */
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"] {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+}
+
+.worker-results {
+    margin-top: 20px;
+    text-align: center;
+}

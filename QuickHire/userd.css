@@ -1,0 +1,143 @@
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.avif');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 0px 0px 23px 23px;
+    box-shadow: 0 0 1px rgb(29, 26, 26);
+    background-image: url('bg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 999;
+    height: 5%; /* Default height for desktop */
+    transition: height 0.3s ease; /* Header height transition */
+}
+
+/* Style for the logo */
+.logo img {
+    width: 240px;
+    height: auto;
+    margin-left: 20px; /* Adjust as needed */
+    transition: all 0.3s ease; /* Logo transition */
+}
+  
+  
+  
+  
+  
+  
+  
+  #workerform {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 1px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  input[type="text"],
+  button {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+    outline: none; /* Remove default focus outline */
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+    
+  #signup-form img,
+  #login-form img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    padding: 5px;
+    width: 150px;
+    display: inline-block;
+  }
+  
+  h2 {
+    margin-top: 0%;
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+    text-decoration: underline;
+  }
+  h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  /* Basic styling for the dropdown */
+#districts, #Cities, #skill {
+    font-size: 14px;
+    padding: 3px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Style the dropdown arrow */
+  #districts::after {
+    content: "\25BC"; /* Unicode for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Make the arrow unselectable */
+  }
+  
+  /* Style when dropdown is open */
+  #districts:focus {
+    outline: none;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+  
+  
+  

@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px 0px 23px 23px;
+    box-shadow: 0 0 1px rgb(29, 26, 26);
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+  }
+  
+  /* Style for the logo */
+  .logo img {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+  }
